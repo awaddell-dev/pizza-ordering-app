@@ -174,7 +174,9 @@ src/
 
 ## Author
 
-James Waddell
+- Alex Waddell
+
+Transitioning from Army Staff Sergeant -> Software Developer
 Software Development Intern: Creating Coding Careers  
 Software Development Student: California Institute of Applied Technology  
 LinkedIn: https://www.linkedin.com/in/alex-waddell-5082a429b
