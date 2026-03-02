@@ -1,4 +1,4 @@
-package com.mycompany.pizzacalculator;
+package com.mycompany.pizza_ordering_app;
 
 import org.junit.jupiter.api.Test;
 

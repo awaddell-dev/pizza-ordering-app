@@ -1,4 +1,4 @@
-package com.mycompany.pizzacalculator;
+package com.mycompany.pizza_ordering_app;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -19,7 +19,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PizzaCalculator extends Application {
+public class PizzaMain extends Application {
 
     private final TextArea receiptArea = new TextArea();
 

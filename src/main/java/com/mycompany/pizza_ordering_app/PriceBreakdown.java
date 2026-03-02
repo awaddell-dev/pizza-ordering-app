@@ -1,4 +1,4 @@
-package com.mycompany.pizzacalculator;
+package com.mycompany.pizza_ordering_app;
 
 import java.math.BigDecimal;
 import java.util.List;

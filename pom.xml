@@ -48,10 +48,10 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>com.mycompany.pizzacalculator.PizzaCalculator</mainClass>
+                    <mainClass>com.mycompany.pizza_ordering_app.PizzaMain</mainClass>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
+    <name>pizza_ordering_app</name>
 </project>

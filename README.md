@@ -1,4 +1,5 @@
 # JavaFX Pizza Ordering System
+![tests](https://github.com/awaddell-dev/pizza-ordering-app/actions/workflows/tests.yml/badge.svg)
 
 A modular JavaFX desktop application implementing object-oriented design principles, dynamic UI state management, and a test-validated real-time pricing engine.
 
