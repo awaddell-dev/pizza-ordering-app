@@ -38,7 +38,7 @@ The application emphasizes maintainability, modular architecture, and validated 
 > Screenshots are located in the `/screenshots` directory.
 
 ### Main Interface
-![Main UI](screenshots/mainUI.png)
+![Main UI](screenshots/main.png)
 
 ### Pricing Output Example
 ![Output Example](screenshots/output.png)
