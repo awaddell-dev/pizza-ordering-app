@@ -80,21 +80,29 @@ The project follows a structured modular design:
 
 ---
 
-## Testing
+## CI / Testing
 
-The pricing engine is validated using JUnit tests to ensure correctness and reliability across multiple order configurations.
+The pricing engine is validated using JUnit tests to ensure correctness, reliability, and deterministic behavior across multiple order configurations.
 
-### Test Coverage Includes:
+Automated unit tests execute on every push and pull request via GitHub Actions.
 
-- Base price calculation per pizza size
-- Topping cost aggregation
-- Tax computation accuracy
-- Final total calculation validation
-- Edge cases (no toppings, multiple toppings, etc.)
+![CI Status](https://github.com/awaddell-dev/pizza-ordering-app/actions/workflows/tests.yml/badge.svg?branch=main)
 
-All tests isolate business logic from the JavaFX UI layer, reinforcing clean architecture and improving maintainability.
+### Test Coverage Includes
 
-### Running Tests
+- Base price calculation per pizza size  
+- Topping cost aggregation  
+- Tax computation accuracy  
+- Final total calculation validation  
+- Edge case validation (no toppings, multiple toppings, etc.)
+
+All tests isolate business logic from the JavaFX UI layer, reinforcing separation of concerns and improving maintainability.
+
+### Local Test Results (IDE)
+
+![JUnit Test Results](screenshots/test-results.png)
+
+### Running Tests Locally
 
 Using Maven:
 
